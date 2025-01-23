@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Quicksand", serif;
+}
+  
+/* shared styles */
+.display-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-orange{
+    color: rgb(254, 163, 1);
+}
+.text-colar{
+    color: rgb(1, 172, 253);
+}
+.text-light{
+    color: rgb(5, 212, 223);
+}
+.text-light-gray{
+    color: rgb(93, 88, 239);
+}
+/* header styles */
+.btn-hero{
+    border: none;
+    border-radius: 5px;
+    background-color:black;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 5px 15px;
+}
+.btn-primary{
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 5px 15px;
+}
+header{
+    margin: auto 150px;
+}
+.logo img{
+    width: 35px;
+    height: 35px;
+}
+.brand{
+    width: 50px;
+    font-weight: bold;
+}
+.nav-item{
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+.nav-link{
+    text-decoration: none;
+}
+.logo{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.menu{
+    width: auto;
+}
+.nav-btn{
+    width: auto;
+}
+/* student related styles */
+.student-section{
+    margin: 5px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-kids img{
+    width: 350px;
+}
+.hero-kids{
+    width: 45%;
+}
+.student-content{
+    width: 45%;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.student-description{
+    font-size: 8px;
+    font-weight: 400;
+    
+}
+.curriculum-section{
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#curriculum-section-box1{
+    width: 280px;
+    height: 350px;
+    box-shadow: 1px 1px 10px 2px rgba(165, 165, 165, 0.171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+    background-image: linear-gradient(180deg, rgba(222, 245, 255, 1),rgba(222, 245, 255, 0), rgba(255, 255, 255, 0));
+    justify-content: center;
+}
+#curriculum-section-box2{
+    width: 280px;
+    height: 350px;
+    box-shadow: 1px 1px 10px 2px rgba(165, 165, 165, 0.171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+    background-image: linear-gradient(180deg, rgba(255, 244, 220, 1),rgba(255, 244, 220, 0), rgba(255, 255, 255, 0));
+    justify-content: center;
+}
+#curriculum-section-box3{
+    width: 280px;
+    height: 350px;
+    box-shadow: 1px 1px 10px 2px rgba(165, 165, 165, 0.171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+    background-image: linear-gradient(180deg, rgba(242, 232, 255, 1),rgba(242, 232, 255, 0), rgba(255, 255, 255, 0));
+    justify-content: center;
+}
+.img-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.curriculum-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.curriculum-box-paragraph{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(85, 84, 84);
+}
+.curriculum-box-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+#curriculum-box-btn1{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: rgba(100, 200, 255, 1);
+    font-size: 14px;
+}
+#curriculum-box-btn2{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: rgba(240, 170, 0, 1);
+    font-size: 14px;
+}
+#curriculum-box-btn3{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: rgba(135, 0, 255, 1);
+    font-size: 14px;
+}
+.curriculum-section-boxes{
+    padding: 40px 150px;
+    display: flex;
+    gap: 20px;
+}
+#arrow{
+    width: 80px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#arrow p{
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: Orange;
+    border-radius: 50%;
+    padding: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+.stories-section{
+    padding: 40px 150px;
+    background: linear-gradient(to top, rgba(254, 161, 1, 0.486), rgba(0, 0, 0, 0)), url('/img/bg.png') no-repeat center center/cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stories-box-left .stories{
+    height: 400px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px 2px rgba(165, 165, 165, 0.171);
+    background-color: white;
+}
+.stories-box-left img{
+    width: 350px;
+    border-radius: 12px 12px 0 0;
+}
+.stories-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.stories-box-left{
+    width: 50%;
+}
+.stories-box-right{
+    width: 50%;
+}
+.stories-box-left h3{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.stories-box-left p{
+    font-size: 10px;
+    color: gray;
+}
+.stories-box-left button{
+    background-color: rgba(93, 88, 240, 1);
+    border: none;
+    border-radius: 47px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+#left-stories-text{
+    padding: 20px;
+    position: relative;
+    bottom: 40px;
+}
+.stories-boxes{
+    display: flex;
+}
+.stories-box-right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.stories-box-right .stories{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px 2px rgba(165, 165, 165, 0.171);
+    background-color: white;
+}
+.stories-box-right img{
+    width: 200px;
+    height: 120px;
+    border-radius: 12px 12px 0 0;
+}
+.stories-box-right h3{
+    font-size: 12px;
+    font-weight: 500;
+}
+.stories-box-right button{
+    background-color: rgba(93, 88, 240, 1);
+    border: none;
+    border-radius: 12px;
+    font-size: 10px;
+    color: white;
+    padding: 5px 10px;
+}
+.stories-box-right-text{
+    padding: 10px;
+    position: relative;
+    bottom: 25px;
+}
+footer{
+    padding: 50px 150px;
+    background-color: rgba(1, 172, 253, 1);
+
+}
+.footer-widget1{
+    width: 50%;
+}
+.footer-widget{
+    width: 25%;
+}
+.footer-content{
+    display: flex;
+}
+.footer-widget1 img{
+    width: 60px;
+    height: 60px;
+}
+.footer-widget1 h2{
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+}
+.footer-widget1 p{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    width: 70%;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-widget h3{
+    color: white;
+    font-size: 16px;
+}
+.footer-widget ul{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    position: relative;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-widget img{
+    width: 20px;
+}
+@media only screen and (max-width: 768px) {
+/* Mobile styles for all sections */
+header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}   
+#hamburger-menu{
+    width: 60px;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+.brand {
+  display: none;
+}
+.btn-primary {
+  display: none;
+}
+.btn-hero{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+/* Student Section */
+.menu{
+    display: none;
+}
+.student-section {
+  margin: 0 20px;
+  padding-bottom: 80px;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+.hero-kids img {
+  width: 100%;
+}
+.hero-kids{
+    width: 90%;
+}
+.student-content {
+  width: 100%;
+
+}
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+.student-description {
+  font-size: 15px;
+  text-align: center;
+}
+/* Curriculum Section */
+.curriculum-section {
+  width: 100%;
+}
+.curriculum-section-boxes {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#curriculum-section-box1,
+#curriculum-section-box2,
+#curriculum-section-box3 {
+  width: 320px;
+  height: 400px;
+  padding: 10px;
+}
+.curriculum-section-boxes h3{
+    font-size: 30px;
+}
+.curriculum-section-boxes p{
+    font-size: 15px;
+}
+#arrow {
+  width: 100%;
+  justify-content: center;
+  gap: 5px;
+}
+#arrow p {
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+/* Stories Section */
+.stories-section {
+  padding: 50px 10px;
+}
+.stories-boxes h3{
+    font-size: 20px;
+}
+.stories-boxes p{
+    font-size: 12px;
+}
+.stories-boxes {
+  flex-direction: column;
+}
+.stories-box-left{
+  width: 100%;
+}
+.stories-box-left img{
+    width: 100%;
+}
+.stories-box-left .stories {
+  width: 100%;
+  height: 450px;
+}
+.stories-box-right {
+    margin: 20px 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    padding: 0;
+
+}
+.stories-box-right h3{
+    font-size: 15px;
+}
+.stories-box-right .stories {
+    width: 160px;
+    height: 220px;
+    position: relative;
+    left: 4%;
+    right: 4%;
+}
+.stories-box-right img {
+  width: 160px;
+  height: 100px;
+}
+/* Footer Section */
+footer {
+  padding: 20px;
+}
+footer li{
+    position: relative;
+    right: 40px;
+}
+.footer-content {
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-widget1 {
+  width: 100%;
+}
+.footer-widget {
+  width: 100%;
+}
+.footer-widget1 p {
+  width: 100%;
+}
+.footer-widget ul {
+  flex-direction: column;
+  right: 0;
+}
+
+}
+#hamburger-menu {
+    display: none;
+  }
+  
+@media only screen and (max-width: 768px) {
+    #hamburger-menu {
+      display: block;
+    }
+  }
